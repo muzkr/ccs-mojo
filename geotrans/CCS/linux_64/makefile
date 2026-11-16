@@ -90,7 +90,8 @@ DTCCSRCS = \
         tranmerc/TransverseMercator.cpp \
         ups/UPS.cpp \
         usng/USNG.cpp \
-        utm/UTM.cpp
+        utm/UTM.cpp \
+        webmerc/WebMercator.cpp
 
 DTCC_O = \
         CCSThreadMutex.cpp \
@@ -134,7 +135,8 @@ DTCC_O = \
         TransverseMercator.cpp \
         UPS.cpp \
         USNG.cpp \
-        UTM.cpp
+        UTM.cpp \
+        WebMercator.cpp
 
 CCSSRCS = \
         CoordinateConversion/CoordinateConversionService.cpp
@@ -270,7 +272,8 @@ DTCCINCS = \
         -I$(DTCCDIR)/tranmerc \
         -I$(DTCCDIR)/ups \
         -I$(DTCCDIR)/usng \
-        -I$(DTCCDIR)/utm
+        -I$(DTCCDIR)/utm \
+        -I$(DTCCDIR)/webmerc
 
 
 INCLUDES = \
