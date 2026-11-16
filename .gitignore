@@ -218,3 +218,5 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+!/geotrans/GEOTRANS3/linux_64/libjnimsp_ccs.so
